@@ -33,12 +33,16 @@ Facebook Live sellers operate in a **diverse ecosystem**, with varying levels of
 ## **MODELLING: K-MEANS CLUSTERING**  
 - **Optimal Cluster Selection:** Using **Elbow Method** to determine the best K-value.  
 - **Training the K-Means Model:** Assigning sellers to distinct groups.  
-- **Interpreting Clusters:** Analyzing characteristics of each cluster.  
+- **Interpreting Clusters:** Analyzing characteristics of each cluster.
 
+![](elbow_chart.png)
+  
 ## **ANALYSIS & VISUALIZATION**  
 - **2D Scatter Plot of Clusters:** Visualizing how sellers are grouped.  
 - **Cluster Centers Identification:** Marking central points of each group.  
 - **Insights from Each Cluster:** Understanding what makes each seller type unique.  
+
+![](silhouette_score_chart.png)
 
 ### **Cluster Visualization Example**
 ```python
